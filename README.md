@@ -2,8 +2,12 @@
 
 The backend for the FontFusion application is designed to handle all font blending, Google Fonts integration, and funky font management services. This guide will walk you through the steps to set up and run the backend server locally, and how to expose it to the internet using Ngrok.
 
-## Getting Started
+It also consits of the colab file where the GAN and VAE model is trained.
 
+## Getting Started
+### Colab 
+- Download and run  the GAN-VAE_MODEL.ipynb file
+- Use weights folder to directly access the trained weights saved as .pt file. 
 ### Prerequisites
 - Python 3.8+
 - pip (Python package installer)
@@ -51,6 +55,7 @@ The backend for the FontFusion application is designed to handle all font blendi
 
 2. **API Key Configuration:**
     - Ensure that the application is configured to use the Ngrok URL along with the required API key for secure access.
+
 
 ## Project Structure
 
